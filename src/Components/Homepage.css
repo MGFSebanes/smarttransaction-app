@@ -1,0 +1,261 @@
+/* header*/
+
+.h1{
+    font-family: Tahoma, Arial, sans-serif;
+    font-size: 30px;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    align-content: center;
+    margin-top: 10px; 
+}
+
+.logo{
+    margin-right: 70px;
+    margin-left: 30px;
+}
+
+
+
+/* news*/
+
+.slidecontainer{
+    margin-top: 24px;
+    align-items: center;
+    margin-left: 24px;
+    margin-right: 24px;
+    
+    height: fit-content;
+
+}
+
+.ticker{
+    display: flex;
+    width: 100%;
+    height: 40px;
+    
+}
+
+.news{
+    width: 76%;
+    color: #494949;
+    padding: 0 ;
+    bottom: 0;
+    box-shadow: 0 4px 8px -4px rgba(0, 0, 0, 0.3);
+
+}
+
+.slidecontainer a{
+    text-decoration: none;
+}
+
+.news a{
+    color: #494949;
+}
+
+.newstitle{
+    width: 150px;
+    text-align: center;
+    background: #df2020;
+    position: relative;
+    color: white;
+    
+}
+.newstitle h5{
+    font-size: 18px;
+    margin: 7px;
+    
+    
+}
+
+.news marquee{
+    font-size: 18px;
+    margin: 5px;
+    
+}
+
+.news ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+}
+
+.news ul li {
+    white-space: nowrap;
+    padding: 0 50px;
+    position: relative;
+}
+
+
+
+.socialcontainer{
+background: #fff;
+
+height: 40px;
+width: 190px;
+align-items: flex-start;
+margin-right: 24px;
+display: flex;
+}
+
+.socialcontainer li{
+    white-space: nowrap;
+    position: relative;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    margin: 0 1px;
+    cursor: pointer;
+    
+}
+.newsavatar{
+    background-color: #4230ab;
+    font-family: Tahoma, Arial, sans-serif;
+    color: white;
+    height: 40px;
+    border-color: #4230ab;
+    font-size: 20px;
+    border: none;  
+    
+}
+
+.newsavatar1{
+    background-color: red;
+    font-family: Tahoma, Arial, sans-serif;
+    color: white;
+    height: 40px;
+    border-color: red;
+    font-size: 20px;
+    border: none;  
+    
+}
+
+.newsavatar{
+    background-color: #4230ab;
+    font-family: Tahoma, Arial, sans-serif;
+    color: white;
+    height: 40px;
+    border-color: #4230ab;
+    font-size: 20px;
+    border: none;  
+    
+}
+
+.newsavatar2{
+    background-color: #800000;
+    font-family: Tahoma, Arial, sans-serif;
+    color: white;
+    height: 40px;
+    border-color: #800000;
+    font-size: 20px;
+    border: none;  
+    
+}
+
+
+.ant-carousel .slick-prev {
+    color: unset;
+    font-size: unset;
+    font-size: 20px;
+    
+    
+}
+.ant-carousel .slick-next {
+  color: unset;
+  font-size: unset;
+  font-size: 20px;
+  
+
+}
+
+.ant-carousel .slick-prev:hover,
+.ant-carousel .slick-next:hover,
+.ant-carousel .slick-prev:focus,
+.ant-carousel .slick-next:focus {
+  color: unset;
+}
+
+
+/* news small width*/
+@media (max-width:1000px){
+    .newstitle{
+        height: fit-content;
+        
+    }
+    .slidepicture{
+        max-width: 90%;
+    }   
+}
+
+
+@media (min-width:600px){
+    .latestpost{
+        margin-left: 5em;
+    }
+
+}
+
+/* latest news */
+.part2{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    margin-bottom: 10px;
+    
+    
+}
+h4{
+    font-size: 18px;
+    font-family: Tahoma, Arial, sans-serif;
+    
+}
+
+.hh1{
+    font-size: 20px;
+    font-family: Tahoma, Arial, sans-serif;
+    margin-left:  8em;
+    background: #df2020;
+    color: white;
+    width: 150px;
+    text-align: center;
+    height: 90;
+    margin-bottom: 24px;
+    
+}
+
+
+/* Modal login */
+
+.login-form-button{
+    width: 100%;
+    font-size: 20px;
+    height: fit-content;
+
+}
+
+.Signup-form-button{
+    width: 100%;
+    font-size: 20px;
+    height: fit-content;
+    margin-top: 10px;
+}
+
+.login-form-forgot{
+    float: right;
+}
+
+.login-form-or-register-now{
+    display: flex;
+    justify-content: center;
+    margin-top: 2%;
+    
+    
+}
+
+.login-form-register-now{
+    margin-left: 2%;
+    
+}
+
+

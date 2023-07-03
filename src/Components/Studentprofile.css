@@ -1,0 +1,379 @@
+.ContentTitle{
+    font-family: inherit;
+    font-size: 21px;
+    color: #565656;
+    font-weight: normal;
+
+}
+
+.btnpayment{
+    background-color: #1677ff;
+    color: white;
+    font-size: 13px;
+    font-family: Tahoma, Arial, sans-serif;
+    font-weight: 400;
+    margin-right: 24px;
+    float: right;
+    margin-top: 3px;
+    
+    
+}
+
+.Cardinfo{
+    margin-top: 20px;
+    margin-right: 24px;
+    background-color: #fff;
+    border: 1px solid #ededed;
+    border-radius: 4px;
+    box-shadow: 0 2px 1px 0 rgba(0, 0, 0, 0.2);
+    margin-bottom: 30px;
+    padding: 2px;
+    font-family: inherit;
+    
+    
+    
+    
+}
+
+.red {
+    color: white; 
+    height: 60px;
+    float: left;
+    padding-top: 1px;
+}
+    
+
+.green {
+    width: 300px; 
+    float: left;
+    border-right: 2px dashed #ccc;
+    font-family: Tahoma, Arial, sans-serif;
+    font-size: 13px;
+    
+    
+    
+}
+.blue {
+     width: 300px; 
+     float: left;
+     font-family: Tahoma, Arial, sans-serif;
+     font-size: 13px;
+     
+}
+.blue li .title {
+    color: #515365;
+    float: left;
+    font-weight: 500;
+    margin-right: 30px;
+    width: 10%;
+    font-family: inherit;
+    margin-left: 10%;
+   
+}
+
+.blue li .text {
+    color: #888da8;
+    display: block;
+    overflow: hidden;
+}
+
+/* Container for flexboxes */
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.column {
+  flex: 25%;
+  
+}
+
+@media screen and (max-width: 900px) {
+  .column {
+    flex: 60%;
+  }
+  .green{
+    border-bottom: 2px dashed #ccc;
+    border-right: none;
+
+  }
+
+  .dlbtn{
+    margin-right: 10%;
+    
+  }
+
+  .Searchbtn{
+    margin-left: 15%;
+    
+  }
+.blue li .title {
+  margin-left: 0%;
+}
+}
+@media screen and (max-width: 590px) {
+  .btnedit{
+    width: 47%;
+  }
+  .btnsendmsg{
+    width: 47%;
+  }
+
+}
+
+
+.ant-image-preview-operations-operation:not(:first-child) {
+  display: none;
+  
+}
+
+.m-b-0 {
+  margin-bottom: 0 !important;
+  
+}
+
+
+.staff-msg {
+  margin-top: 10px;
+ 
+}
+
+.blue li {
+  margin-bottom: 10px;
+}
+
+.staff-id {
+  margin-top: 5px;
+  color: #515365;
+}
+
+.user-name {
+  color: #333;
+  font-size: 24px;
+  font-weight: 500;
+}
+
+.ant-picker-panels > *:first-child button.ant-picker-header-next-btn {
+  visibility: visible !important;
+}
+
+.ant-picker-panels > *:first-child button.ant-picker-header-super-next-btn {
+  visibility: visible !important;
+}
+
+.ant-picker-panels > *:last-child {
+  display: none !important;
+}
+
+.ant-picker-panel-container, .ant-picker-footer {
+  width: 280px !important;
+}
+
+.ant-picker-footer-extra > div {
+  flex-wrap: wrap !important; 
+}
+
+
+/* */
+
+
+.btnedit{
+  margin-bottom: 5px;
+  margin-right: 5px;
+  min-width: 40px;
+  font-size: 13px;
+  font-family: Tahoma, Arial, sans-serif;
+  min-width: 25%;
+  
+}
+
+.btnsendmsg{
+  margin-bottom: 5px;
+  font-size: 13px;
+  font-family: Tahoma, Arial, sans-serif;
+  min-width: 25%;
+
+}
+
+
+.datatable{
+  padding-right: 24px;
+}
+
+
+
+
+
+
+
+.Cardinfo2{
+  margin-right: 24px;
+  background-color: #fff;
+  border: 1px solid #ededed;
+  border-radius: 4px;
+  box-shadow: 0 2px 1px 0 rgba(0, 0, 0, 0.2);
+  padding: 2px;
+  font-family: inherit;
+  height: 350px;
+  
+  
+}
+.green1 {
+  width: 300px; 
+  float: left;  
+  
+}
+.blue1 {
+   width: 300px; 
+   float: right;
+   margin-left: 100px;
+   
+   
+}
+
+.officetitle{
+  font-family: Tahoma, Arial, sans-serif;
+  font-size: 20px;
+  margin-bottom: 5%;
+}
+.officeitem{
+  font-family: Tahoma, Arial, sans-serif;
+  font-size: 20px;
+  color: #515365;
+}
+
+
+
+.btnappointment{
+  margin-bottom: 5px;
+  margin-right: 5px;
+  min-width: 40px;
+  font-size: 13px;
+  font-family: Tahoma, Arial, sans-serif;
+  min-width: 25%;
+  margin-top: 10%;
+  
+}
+
+.btntransaction{
+  margin-bottom: 5px;
+  font-size: 13px;
+  font-family: Tahoma, Arial, sans-serif;
+  min-width: 25%;
+
+}
+
+
+.rep{
+  font-size: 13px;
+  font-family: Tahoma, Arial, sans-serif;
+}
+
+.rep1{
+  font-size: 13px;
+  font-family: Tahoma, Arial, sans-serif;
+  
+}
+
+.rep2{
+  font-size: 13px;
+  font-family: Tahoma, Arial, sans-serif;
+}
+
+.rep3{
+  font-size: 13px;
+  font-family: Tahoma, Arial, sans-serif;
+}
+
+.req{
+  font-size: 13px;
+  font-family: Tahoma, Arial, sans-serif;
+  font-weight: bold;
+  margin-top: 40px;
+  margin-left: 310px;
+  margin-bottom: 20px;
+
+  }
+  .req5{
+    font-size: 13px;
+    font-family: Tahoma, Arial, sans-serif;
+    font-weight: bold;
+    margin-top: 40px;
+    margin-left: 240px;
+    margin-bottom: 20px;
+  
+    }
+
+.ant-checkbox-checked .ant-checkbox-inner{
+  background-color: #1677ff;
+  border-color: #1677ff;
+  
+  
+  
+}
+
+
+.ant-checkbox-disabled .ant-checkbox-inner:after {
+  border-color: white !important;
+  
+  
+ 
+}
+.ant-input:disabled{
+  color: black;
+}
+ 
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button
+{ 
+  -webkit-appearance: none; 
+  margin: 0; 
+}
+
+.ant-upload-wrapper.ant-upload-picture-card-wrapper .ant-upload.ant-upload-select {
+  height: 200px;
+  width: 200px;
+}
+
+.ant-upload-wrapper.ant-upload-picture-card-wrapper .ant-upload-list.ant-upload-list-picture-card .ant-upload-list-item-container {
+  height: 200px;
+  width: 200px;
+}
+
+.ant-card-body {
+  color: white;
+
+}
+
+.ant-statistic .ant-statistic-title {
+  color: white;
+}
+.ant-statistic .ant-statistic-content {
+  color: white;
+}
+/*
+.ant-select-dropdown .ant-select-item-option-content {
+  text-align: center;
+}
+*/
+.Cardinfo1{
+  margin-top: 10px;
+  
+  background-color: #fff;
+  border: 1px solid #ededed;
+  border-radius: 4px;
+  box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.2);
+  margin-bottom: 30px;
+  padding: 2px;
+  font-family: inherit;
+  border-left: 5px solid green;
+}
+.Cardinfo3{
+  border: 2px solid #ededed;
+}
+.Cardinfo4{
+  border-top: 3px solid #17a2b8;
+}
+.ant-alert-info .ant-alert-icon {
+  color: #ffffff;
+}

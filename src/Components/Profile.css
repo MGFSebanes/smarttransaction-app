@@ -1,0 +1,157 @@
+@media (max-width:1102px) {
+    .profileavatar{
+        display: none;
+    }
+    .PUP{
+        display: none;
+        
+    }
+
+    .logo{
+        
+        float: left; 
+    }
+    .SideMenu{
+        display: none;
+    }
+    .Content{
+        padding-left: 300px;
+    }
+}
+
+
+@media (max-width:590px){
+    .logo{
+        
+        float: left; 
+    }
+
+    
+    
+}
+
+@media (min-width:1102px) {
+    .logo{
+        
+        float: left; 
+    }
+    .burgericon{
+        display: none;
+    }
+    .Content{
+        padding: 24px;
+    }
+}
+
+
+
+
+
+.Header{
+    color: white;
+    background-color: #800000;
+    height: 60px;
+    
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    justify-items: center;
+
+    
+    
+}
+
+.Sider{
+    
+    color: white;
+}
+
+.profileavatar{
+    background-color: #800000;
+    font-family: Tahoma, Arial, sans-serif;
+    color: white;
+    height: 60px;
+    border-color: #800000;
+    font-size: 20px;
+    border: none;
+    float: right;
+    
+    
+}
+.Profileavatar{
+    background-color: #800000;
+    font-family: Tahoma, Arial, sans-serif;
+    color: white;
+    height: 60px;
+    border-color: #800000;
+    font-size: 20px;
+    border: none;
+    float: right;
+    
+    
+}
+.btn{
+    margin-bottom: 5px;
+    margin-right: 5px;
+    background-color: #1677ff
+}
+
+
+.PUP{
+    margin-top: 10px;
+    
+    float: left;
+    font-family: Tahoma, Arial, sans-serif;
+    font-size: 30px;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    align-content: center;
+}
+
+
+.SideMenu{
+    min-height: 91.5vh;
+    width: 375px;
+    color: white;
+    
+}
+
+.iconprofile{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    
+    border: 1px solid black;
+}
+
+
+/*
+.ant-table-tbody .ant-table-row:nth-child(even) {
+    background-color: gray;
+  }
+
+*/ 
+
+.container {
+    height: 100vh;
+    width: 100vh;
+}
+
+.header{
+    background-color: white;
+}
+
+.brand{
+    font-size: 2.3rem;
+    padding: 10;
+}
+
+.hidden {
+    display: none;
+  }
+
+  .ant-checkbox-group-item {
+    display: inline-block;
+    margin-right: 8px;
+}
